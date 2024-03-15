@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             <img className="logo" src={Logo} />
           </a>
           <button
@@ -26,17 +26,17 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/galerija">
+                <a class="nav-link" href="#about">
+                  O nama
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galery">
                   Galerija
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Lokacija
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#contact">
                   Kontakt
                 </a>
               </li>

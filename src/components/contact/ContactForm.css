@@ -1,0 +1,17 @@
+.submit__btn{
+    color: white;
+    background-color: #215b75 !important;
+    margin-top: 0.5rem;
+}
+ 
+.contact__form{
+    display: flex !important;
+    flex-direction: column;
+    margin: 1rem;
+}
+.input{
+    margin-bottom: 0.5rem;
+}
+.label{
+    color: #215b75;
+}

@@ -7,10 +7,10 @@ const HeroSection = () => {
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2">
-            <h1>Dobrodosli </h1>
+            <h1>Dobrodošli </h1>
             <p>- Vaš dom daleko od kuće -</p>
-            <a href="#" class="btn btn-primary">
-              Provjeri dostupnost
+            <a href="#about" class="btn btn-primary">
+              Saznaj više
             </a>
           </div>
         </div>
