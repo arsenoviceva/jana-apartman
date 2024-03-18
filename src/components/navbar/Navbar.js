@@ -7,13 +7,13 @@ const Navbar = () => {
     <div className="row">
      
 
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="/">
+          <a class="navbar-brand" href="#hero">
             <img className="logo" src={Logo} />
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"

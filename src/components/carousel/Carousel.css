@@ -12,8 +12,18 @@
 .carousel{
   margin: 0 5rem 5rem 5rem;
 }
+
 @media(max-width: 767px) {
   .carousel img {
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .carousel{
+    margin: 0 0.3rem 0 0.3rem;
+
   }
 }
+
+ 
+  
+
+ 

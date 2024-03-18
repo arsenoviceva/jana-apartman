@@ -7,6 +7,16 @@
     font-style: normal;
     text-align:justify;
 }
+.contact-info-mail{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #215b75;
+    font-weight: 400;
+    font-style: normal;
+    text-align:justify;
+
+}
 .icons{
     
     color: #215b75;
@@ -19,4 +29,12 @@
     justify-content: center;
 
 }
- 
+iframe#webpack-dev-server-client-overlay{display:none!important}
+
+@media (max-width: 991px) {
+    .contact-info-mail{
+        margin-top: 5rem;
+    }
+
+    
+}

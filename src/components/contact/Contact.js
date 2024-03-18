@@ -8,14 +8,7 @@ const Contact = () => {
   return (
     <div className="container" id="contact">
       <div className="titleRow">
-        <h3
-          style={{
-            fontFamily: "Imperial Script, cursive",
-            fontSize: "5rem",
-            color: "#215b75",
-          }}
-        >
-          {" "}
+        <h3 className="title">
           Kontakt
         </h3>
       </div>
@@ -46,7 +39,7 @@ const Contact = () => {
 
         </div>
         <div className="col-lg-6">
-          <p className="contact-info"> Kontaktirajte nas putem email-a </p>
+          <p className="contact-info-mail"> Kontaktirajte nas putem email-a </p>
           <ContactForm />
         </div>
         <div className="col-lg-12">

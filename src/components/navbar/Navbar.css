@@ -1,23 +1,47 @@
 .navbar {
-    
-    
-   width: 100%;
-   z-index: 1000; /* Ensure navbar is on top of the hero section */
+  width: 100vw;
+  z-index: 1000;  
+  overflow: hidden;
+  position: relative;
+  
  }
+
  .navbar-brand {
-   color: black !important; /* Font color for the navbar brand */
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+   
  }
  .navbar-nav .nav-link {
-   color: #1f4b5f !important; /* Font color for navbar links */
+   color: #1f4b5f !important;  
    font-size: large;
    margin-left: 1rem;
    margin-right: 1rem;
     
 }
- 
+
+.row {
+  margin: 0;
+}
+@media(max-width: 991px)  {
+
+  /*.navbar{
+    position: fixed;
+    width: 100vw;
+    top: 0;     
+   }*/
+   .sticky-top{
+    position: fixed;
+    background-color: white;
+
+   }
+   .row{
+    margin: 0 !important;
+   }
+}
  
  .logo{
    justify-content: right;
    width: 7rem;  
+  
  }
   
