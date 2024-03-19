@@ -16,6 +16,7 @@
   color: #215b75;
   font-weight: 400;
   font-style: normal;
+  margin: 0;
 }
 .hero-section p {
   color: #215b75;
@@ -25,8 +26,9 @@
   box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.15);
   border: none;
   font-size: 1rem;
-  padding: 5px 15px;
+  padding: 10px 15px;
   color: #215b75;
+  margin-top: 1.5rem;
   margin-left: 1rem;
 }
 

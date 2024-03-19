@@ -35,6 +35,7 @@ const Contact = () => {
               <TbBrandBooking className="icons" />{" "}
             </a>
           </div>
+          <br/>
           <div class="elfsight-app-dd0bc6f4-3d7a-4ea2-8d24-8abae412ed0f" data-elfsight-app-lazy></div>
 
         </div>

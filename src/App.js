@@ -6,6 +6,8 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Footer from '../src/components/footer/Footer';
 
+
+
 function App() {
   return (
     <div>
@@ -14,6 +16,7 @@ function App() {
       <About />
       <Carousel />
       <Contact/>
+ 
       <Footer/>
       
     </div>

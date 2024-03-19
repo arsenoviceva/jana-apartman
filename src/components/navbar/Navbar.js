@@ -26,12 +26,10 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#about">
-                  O nama
-                </a>
+              <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#galery">
+                <a class="nav-link" href="#galery" >
                   Galerija
                 </a>
               </li>
