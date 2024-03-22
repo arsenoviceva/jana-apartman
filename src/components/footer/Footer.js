@@ -1,6 +1,6 @@
 import "./Footer.css";
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
+import { TbBrandInstagram } from "react-icons/tb";
 import { TbBrandBooking } from "react-icons/tb";
 
 const Footer = () => {
@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="footer-grey">
         <p className="footer-text"> Apartman Jana Bijeljina | 2024</p>
         
-        <a href="https://www.instagram.com/apartman_jana_bijeljina/" target='_blank'> <FaInstagram className='social' /></a>
-        <a href=" https://www.booking.com/hotel/ba/apartman-jana-bijeljina1.hr.html" target='_blanck'><TbBrandBooking className='social'/> </a>
+        <a href="https://www.instagram.com/apartman_jana_bijeljina/" target='_blank' rel="noreferrer"> <TbBrandInstagram className='social' /></a>
+        <a href=" https://www.booking.com/hotel/ba/apartman-jana-bijeljina1.hr.html" target='_blank' rel="noreferrer"><TbBrandBooking className='social'/> </a>
 
        
       </div>

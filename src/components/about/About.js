@@ -1,5 +1,5 @@
 import "./About.css";
-import image from "../../zoricastan/park.jpg";
+
 
 const About = () => {
   return (

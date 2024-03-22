@@ -1,16 +1,13 @@
 import Logo from "../../logo1.png";
 import "./Navbar.css";
- 
 
 const Navbar = () => {
   return (
     <div className="row">
-     
-
       <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#hero">
-            <img className="logo" src={Logo} />
+            <img className="logo" src={Logo} alt="logo" />
           </a>
           <button
             class="navbar-toggler "
@@ -26,10 +23,12 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about">
+                  O nama
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#galery" >
+                <a class="nav-link" href="#galery">
                   Galerija
                 </a>
               </li>
@@ -42,7 +41,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    
     </div>
   );
 };

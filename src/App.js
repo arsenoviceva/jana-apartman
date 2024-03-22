@@ -1,10 +1,10 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
-import Carousel from "./components/carousel/Carousel";
 import HeroSection from "./components/hero-section/HeroSection";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Footer from '../src/components/footer/Footer';
+ import Gallery from "./components/gallery/Gallery";
 
 
 
@@ -14,11 +14,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <About />
-      <Carousel />
+      <Gallery/>
       <Contact/>
- 
       <Footer/>
-      
     </div>
   );
 }
