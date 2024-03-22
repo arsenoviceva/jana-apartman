@@ -36,7 +36,7 @@ export const ContactForm = () => {
       <input type="email" required name="user_email" className="input" />
       <label>Message</label>
       <textarea name="message" />
-      <input type="submit" value="Send" className="submit__btn" />
+      <input type="submit" value="Pošalji" className="submit__btn" />
     </form>
   );
 };
